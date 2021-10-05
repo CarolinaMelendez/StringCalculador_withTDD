@@ -1,0 +1,29 @@
+1: Al ingresar un número, devuelve el mismo número
+|-> OK
+
+2: Sumar dos números separados por comas
+|->
+
+3: Sumar dos números separados por guion
+|->
+
+4: Sumar tres números separados por coma y guion
+|->
+
+5: Sumar n números separados por comas y guion
+|->
+
+6: Sumar números bajo un delimitador especificado por el usuario
+|->
+
+7: Números mayores a 1000 deberan ser ignorados en la suma
+|->
+
+8: Permitir especificaciones de cualquier longitud
+|->
+
+9: Mostrar mensaje de "formato incorrecto" si el delimitador especificado es incorrecto.
+|->
+
+10: Permitir que el usuario pueda definir n delitadores
+|->

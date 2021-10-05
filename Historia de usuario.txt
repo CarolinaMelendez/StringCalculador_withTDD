@@ -1,0 +1,58 @@
+1: Al ingresar un número, devuelve el mismo número
+2: Sumar dos números separados por comas
+3: Sumar dos números separados por guion
+4: Sumar tres números separados por coma y guion
+5: Sumar n números separados por comas y guion
+6: Sumar números bajo un delimitador especificado por el usuario
+7: Números mayores a 1000 deberan ser ignorados en la suma
+8: Permitir especificaciones de cualquier longitud
+9: Mostrar mensaje de "formato incorrecto" si el delimitador especificado es incorrecto.
+10: Permitir que el usuario pueda definir n delitadores
+
+
+           HISTORIA DE USUARIO
+-------------------------------------------------------------------------
+|    Funcionalidad 1: Al ingresar un número, devuelve el mismo número   |
+-------------------------------------------------------------------------
+- Como: usuario/estudiante
+- Quiero: ver si se ingresa mi cadena
+- Para: ver si la calculadora recibe bien mi cadena
+
+... Criterios de confirmación:
+. Mostrar cadena/texto ingresado
+. Se mostrara mensaje de error si la cadena ingresada esta vacio
+. Mensaje de error "formato incorrecto"
+
+----------------------------------------------------------------
+|    Funcionalidad 2: Sumar dos números separados por comas    |
+----------------------------------------------------------------
+- Como: usuario/estudiante
+- Quiero: sumar dos numeros separados por coma
+- Para: ver el resultado de la suma
+
+... Criterios de confirmación:
+. Los numeros ingresados estaran separados por una coma.
+. Se mostrara mensaje de error si no se encuentra simbolo en la cadena
+
+------------------------------------------------------
+|    Funcionalidad 3: Sumar dos números separados por guion   |
+------------------------------------------------------
+- Como: usuario/estudiante
+- Quiero: sumar dos numeros separados por guion
+- Para: ver el resultado de la suma
+
+... Criterios de confirmación:
+. Los numeros ingresados estaran separados por una guion.
+. Se mostrara mensaje de error si no se encuentra simbolo en la cadena
+
+------------------------------------------------------------------------
+|    Funcionalidad 4: Sumar tres números separados por coma y guion    |
+------------------------------------------------------------------------
+- Como: usuario/estudiante
+- Quiero: sumar dos numeros separados por guion
+- Para: ver el resultado de la suma
+
+... Criterios de confirmación:
+. Los numeros ingresados estaran separados por una guion.
+. Se mostrara mensaje de error si no se encuentra simbolo en la cadena
+

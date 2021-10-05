@@ -1,0 +1,22 @@
+{
+  "name": "2-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest --coverage --watchAll",
+    "test-once": "jest --coverage"
+  },
+  "author": "Carolina Melendez",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "@babel/core": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "babel-jest": "^27.1.0",
+    "jest": "^27.1.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}

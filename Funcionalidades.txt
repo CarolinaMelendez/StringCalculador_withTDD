@@ -2,28 +2,25 @@
 |-> OK
 
 2: Sumar dos números separados por comas
-|->
+|-> OK
 
 3: Sumar dos números separados por guion
+|-> OK
+
+4: Sumar varios números separados por coma y guion
+|-> Ok
+
+5: Sumar números bajo un delimitador especificado por el usuario
 |->
 
-4: Sumar tres números separados por coma y guion
+6: Números mayores a 1000 deberan ser ignorados en la suma
 |->
 
-5: Sumar n números separados por comas y guion
+7: Permitir especificaciones de cualquier longitud
 |->
 
-6: Sumar números bajo un delimitador especificado por el usuario
+8: Mostrar mensaje de "formato incorrecto" si el delimitador especificado es incorrecto.
 |->
 
-7: Números mayores a 1000 deberan ser ignorados en la suma
-|->
-
-8: Permitir especificaciones de cualquier longitud
-|->
-
-9: Mostrar mensaje de "formato incorrecto" si el delimitador especificado es incorrecto.
-|->
-
-10: Permitir que el usuario pueda definir n delitadores
+9: Permitir que el usuario pueda definir n delitadores
 |->

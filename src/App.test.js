@@ -16,4 +16,13 @@ describe("--- SUM STRING --- ",() =>  {
     it("Test 2.2 - sum two numbers by comma",() => {
         expect( sumString("1265478")).toEqual(1265478); 
     });
+    it("Test 3.1 - sum two numbers by comma",() => {
+        expect( sumString("1-5")).toEqual(6); 
+    });
+    it("Test 4.1 - sum two numbers by comma",() => {
+        expect( sumString("1-5,1,1-5-5")).toEqual(18); 
+    });
+    it("Test 4.2 - sum two numbers by comma",() => {
+        expect( sumString("1-5,,1,1---5-5")).toEqual(18); 
+    });
 } )

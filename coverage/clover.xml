@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1633402171390" clover="3.2.0">
-  <project timestamp="1633402171390" name="All files">
-    <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="17" coveredelements="17" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+<coverage generated="1633404127119" clover="3.2.0">
+  <project timestamp="1633404127119" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3" elements="13" coveredelements="13" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
     <file name="Functions.js" path="D:\CARITO ---Trabajos\4 Ingenieria de Software\Tareas\base-js - CalculadoraCadenas with TDD\2-base-js\src\Functions.js">
-      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
-      <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <line num="7" count="8" type="cond" truecount="2" falsecount="0"/>
       <line num="8" count="1" type="stmt"/>
-      <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="13" count="3" type="stmt"/>
-      <line num="20" count="3" type="stmt"/>
-      <line num="24" count="3" type="stmt"/>
-      <line num="25" count="3" type="stmt"/>
-      <line num="26" count="4" type="stmt"/>
-      <line num="28" count="3" type="stmt"/>
+      <line num="10" count="7" type="stmt"/>
+      <line num="12" count="7" type="stmt"/>
+      <line num="16" count="7" type="stmt"/>
+      <line num="17" count="7" type="stmt"/>
+      <line num="18" count="22" type="stmt"/>
+      <line num="20" count="7" type="stmt"/>
     </file>
   </project>
 </coverage>

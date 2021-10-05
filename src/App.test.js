@@ -14,9 +14,9 @@ describe("--- SUM STRING --- ",() =>  {
         expect( sumString("123")).toEqual(123); 
     });
     it("Test 2.2 - sum two numbers by comma",() => {
-        expect( sumString("1265478")).toEqual(1265478); 
+        expect( sumString("1265478")).toEqual(0); 
     });
-    it("Test 3.1 - sum two numbers by comma",() => {
+    it("Test 3.1 - sum two numbers by guion",() => {
         expect( sumString("1-5")).toEqual(6); 
     });
     it("Test 4.1 - sum two numbers by comma",() => {
@@ -25,7 +25,10 @@ describe("--- SUM STRING --- ",() =>  {
     it("Test 4.2 - sum two numbers by comma",() => {
         expect( sumString("1-5,,1,1---5-5")).toEqual(18); 
     });
-    it("Test 5.1 - espefy delimiter",() => {
+    it("Test 5.1 - especify delimiter",() => {
         expect( sumString("//[;]\n 6;7;4")).toEqual(17); 
+    });
+    it("Test 6.1 - especify delimiter",() => {
+        expect( sumString("//[;]\n 6;7;4;1001")).toEqual(17); 
     });
 } )

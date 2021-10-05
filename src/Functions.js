@@ -12,7 +12,12 @@ export function sumString(num_string){
     }
 
     let myArr_num = num_string.split(/,|-/).map(Number);
-    return sum_array(myArr_num);
+    let sum = sum_array(myArr_num);
+
+    if (isNaN(sum)){ 
+        return "Formato incorrecto";
+    }
+    return sum;
 }
 
 function extract_parts_string(num_string){

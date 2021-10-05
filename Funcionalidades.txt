@@ -20,7 +20,7 @@
 |-> OK
 
 8: Mostrar mensaje de "formato incorrecto" si el delimitador especificado es incorrecto.
-|->
+|-> OK
 
 9: Permitir que el usuario pueda definir n delitadores
 |->

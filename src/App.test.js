@@ -37,4 +37,7 @@ describe("--- SUM STRING --- ",() =>  {
     it("Test 7.2 - especify delimiter",() => {
         expect( sumString("//[***]\n 6***1-1,5,2")).toEqual(15); 
     });
+    it("Test 8.1 - correct format",() => {
+        expect( sumString("//[***]\n 6**1-1,5,2")).toEqual("Formato incorrecto"); 
+    });
 } )

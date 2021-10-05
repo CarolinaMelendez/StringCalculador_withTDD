@@ -11,7 +11,7 @@
 |-> Ok
 
 5: Sumar números bajo un delimitador especificado por el usuario
-|->
+|-> OK
 
 6: Números mayores a 1000 deberan ser ignorados en la suma
 |->

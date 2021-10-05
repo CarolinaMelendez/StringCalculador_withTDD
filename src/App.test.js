@@ -25,4 +25,7 @@ describe("--- SUM STRING --- ",() =>  {
     it("Test 4.2 - sum two numbers by comma",() => {
         expect( sumString("1-5,,1,1---5-5")).toEqual(18); 
     });
+    it("Test 5.1 - espefy delimiter",() => {
+        expect( sumString("//[;]\n 6;7;4")).toEqual(17); 
+    });
 } )

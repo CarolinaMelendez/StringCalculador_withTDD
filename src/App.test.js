@@ -19,10 +19,10 @@ describe("--- SUM STRING --- ",() =>  {
     it("Test 3.1 - sum two numbers by guion",() => {
         expect( sumString("1-5")).toEqual(6); 
     });
-    it("Test 4.1 - sum two numbers by comma",() => {
+    it("Test 4.1 - sum numbers",() => {
         expect( sumString("1-5,1,1-5-5")).toEqual(18); 
     });
-    it("Test 4.2 - sum two numbers by comma",() => {
+    it("Test 4.2 - sum numbers",() => {
         expect( sumString("1-5,,1,1---5-5")).toEqual(18); 
     });
     it("Test 5.1 - especify delimiter",() => {
@@ -30,5 +30,11 @@ describe("--- SUM STRING --- ",() =>  {
     });
     it("Test 6.1 - especify delimiter",() => {
         expect( sumString("//[;]\n 6;7;4;1001")).toEqual(17); 
+    });
+    it("Test 7.1 - especify delimiter",() => {
+        expect( sumString("//[***]\n 6***1")).toEqual(7); 
+    });
+    it("Test 7.2 - especify delimiter",() => {
+        expect( sumString("//[***]\n 6***1-1,5,2")).toEqual(15); 
     });
 } )

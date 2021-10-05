@@ -14,10 +14,10 @@
 |-> OK
 
 6: Números mayores a 1000 deberan ser ignorados en la suma
-|->
+|-> OK
 
 7: Permitir especificaciones de cualquier longitud
-|->
+|-> OK
 
 8: Mostrar mensaje de "formato incorrecto" si el delimitador especificado es incorrecto.
 |->

@@ -26,11 +26,9 @@ function extract_parts_string(num_string){
 function sum_array(array_numbers){
     var suma = 0;
     array_numbers.forEach(function(numero){
-        
         if(numero > 1000){
             numero = 0;
         }
-        
         suma += numero;
     });
     return suma;

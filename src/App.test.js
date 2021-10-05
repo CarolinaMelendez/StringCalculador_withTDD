@@ -40,4 +40,22 @@ describe("--- SUM STRING --- ",() =>  {
     it("Test 8.1 - correct format",() => {
         expect( sumString("//[***]\n 6**1-1,5,2")).toEqual("Formato incorrecto"); 
     });
+    it("Test 9.1 - any delimiter",() => {
+        expect( sumString("//[***][;]\n 6***1-1,5;2")).toEqual(15); 
+    })
+    it("Test 9.2 - any delimiter",() => {
+        expect( sumString("//[*][;]\n 1*2;3,7-9")).toEqual(22); 
+    })
+    it("Test 9.3 - any delimiter",() => {
+        expect( sumString("//[*][;][o]\n 1*2;3,7-9o1")).toEqual(23); 
+    })
+    it("Test 9.4 - any delimiter",() => {
+        expect( sumString("//[*][;][%][...]\n 1*2;3,7-9%1...2")).toEqual(25); 
+    })
+    it("Test 9.5 - any delimiter",() => {
+        expect( sumString("//[*][%]\n 1*2%3,7-9")).toEqual(22); 
+    })
+    it("Test 9.6 - any delimiter",() => {
+        expect( sumString("//[*][%]\n 1*2%m3,7-9")).toEqual("Formato incorrecto"); 
+    })
 } )
